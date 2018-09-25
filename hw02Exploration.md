@@ -31,6 +31,14 @@ library(ggplot2)
 library(carData)
 ```
 
+The sections of this document are as follows:
+
+-   Loading in the Data
+-   Summarizing the Data
+-   Examining Relationships between Single Variables and Voter Outcome
+-   Examining a Selection of Multiple Variables at Once
+-   Summary Statements
+
 Loading in Data and Examining its Structure
 ===========================================
 
@@ -113,7 +121,7 @@ We see how, by using some more cumbersome functions one by one, we could gather 
 Looking at Data, Forming Some Summaries
 =======================================
 
-We will look at the four categorical variables, as well as two of the numerical variables in this data set. We will not be looking at `region` or `population` or `statusquo`. We will also only be using data without missing values (I'm educated in multiple imputation and assessing types of missing data, but I didn't want to get carried away for this homework so I will only use complete cases).
+We will look at three of the categorical variables, as well as two of the numerical variables in this data set. We will not be looking at `region` or `population` or `statusquo`. We will also only be using data without missing values (I'm educated in multiple imputation and assessing types of missing data, but I didn't want to get carried away for this homework so I will only use complete cases).
 
 ``` r
 # Remove unwanted variables
